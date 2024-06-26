@@ -17,15 +17,16 @@ test_y = testing['output']
 
 # Define the model
 model = Sequential()
-model.add(Dense(100, activation='relu'))
-model.add(Dense(50, activation='relu'))
+model.add(Dense(300, activation='relu'))
+model.add(Dense(150, activation='relu'))
+model.add(Dense(75, activation='relu'))
 model.add(Dense(1))
 
 # Compile the model
 model.compile(optimizer='adam', loss='mean_squared_error')
 
 # Train the model
-model.fit(train_x, train_y, epochs=10, batch_size=32, verbose=2)
+model.fit(train_x, train_y, epochs=60, batch_size=1, verbose=1)
 
 # make some predictions
 pred_y = model.predict(test_x)
