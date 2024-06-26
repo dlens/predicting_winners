@@ -1,5 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import plotly as py
+import tensorflow as tf
 df = pd.read_excel('footballStats.xlsx')
 
 x = df['PtsL']
