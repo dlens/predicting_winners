@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 # unsure why I am getting red squiggles under these imports, but they still work so whatever
 
 # import and format data
-training = pd.read_excel('training.xlsx')
-testing = pd.read_excel('testing.xlsx')
+training = pd.read_excel('training2.xlsx')
+testing = pd.read_excel('testing2.xlsx')
 
 train_x = training['input']
 train_y = training['output']
