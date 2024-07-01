@@ -15,3 +15,5 @@ Some things I would like to learn more about:
 
 # Code layout
 * [sin](sin): This is where my code for having a neural network predcict sin(x) is located.
+* [miscData](miscData): This is where I dumped many files of data that is currently unused, but may be needed sometime in the future.
+* [Football stats by week defense](football stats by week defense): Here is some weekly football defense data that I compliled. Currently unused.
