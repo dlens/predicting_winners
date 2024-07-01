@@ -12,3 +12,6 @@ Some things I would like to learn more about:
 1: I would like to understand loss functions better, specifficly why one would choose a certain loss function over another, and what the mathmatical differces between the two are.
 2: I need to transition to using plotly for my graphs. Currently I am using matplotlib, which is fine, but produces ugly graphs.
 3: I would like to understand better how to pick an effective number of layers and nodes for any given model.
+
+# Code layout
+* [sin](sin): This is where my code for having a neural network predcict sin(x) is located.
